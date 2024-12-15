@@ -1,0 +1,171 @@
+.f-friends-page {
+    margin-top:70px;
+    /* padding: 20px; */
+    display: flex;
+  }
+  
+  .f-friends-section, .f-blocked-section, .f-invitations-section {
+    margin-top: 20px;
+    margin-left: 55px;
+    width: 300px;
+    height: 600px;
+    background-color: #636987;
+    border-radius: 17px;
+  }
+  
+  .f-friends-list, .f-blocked-list, .f-invitations-list {
+    list-style: none;
+    padding: 10px;
+    max-height: 580px;
+    max-width: 400px;
+    overflow-x: auto;
+    overflow-y: auto;
+    color: white;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+  .f-friend-item, .f-blocked-item, .f-invitation-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .f-friend-photo, .f-blocked-photo, .f-invitation-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .f-invitation-photo {
+    margin-bottom: 30px;
+  }
+  
+  .f-friend-details,
+  .f-blocked-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    flex: 1;
+  }
+
+
+  .f-invitation-details{
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* .f-friend-message{
+    color: #d3d3d3;
+    font-size: 14px;
+    margin-top: 4px;
+  } */
+
+  .f-friends-titles{
+    padding-left: 40px;
+    font-size: 20px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .f-friend-icons{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    /* margin-left: auto;  */
+  }
+  
+ .f-icon{
+    color: #BBFC52;
+    font-size: 15px;
+    cursor: pointer;
+ }
+
+ .f-icon:hover{
+  color: #A9DB4C;
+  font-size: 16px;
+ }
+
+ .f-invitation-buttons{
+   display: flex;
+   margin-top: 10px;
+   cursor: pointer;
+   font-size: 16px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .f-accept-button{
+    color: rgb(98, 89, 89);
+    background-color: #BBFC52;
+    padding-top: 1px;
+    margin-left: 60px;
+    padding-left: 5px;
+    width: 60px;
+    height: 20px;
+    border: 0.5px solid rgb(189, 187, 187);
+    border-radius: 17px;
+  }
+
+  .f-accept-button:hover{
+    background-color: #A9DB4C;
+    border-color: #3F4054;
+  }
+
+ .f-cancel-button{
+    color: #eae8e8;
+    background-color: #E84172;
+    padding-top: 1px;
+    margin-left: 10px;
+    padding-left: 5px;
+    width: 60px;
+    height: 20px;
+    border: 0.5px solid #3F4054;
+    border-radius: 17px;
+ }
+
+ .f-cancel-button:hover{
+  background-color: #d1406c;
+  border-color: #4c0419;
+ }
+
+
+ .f-invitation-icon{
+    font-size: 18px;
+    padding-left: 170px;
+    color: #BBFC52;
+    cursor: pointer;
+ }
+
+ .f-invitation-icon:hover{
+  color: #A9DB4C;
+ }
+
+
+
+ .f-unblock-button{
+    font-size: 15px;
+    color: rgb(98, 89, 89);
+    background-color: #BBFC52;
+    padding-top: 1px;
+    margin-left: 120px;
+    padding-left: 5px;
+    width: 60px;
+    height: 20px;
+    border: 0.5px solid rgb(189, 187, 187);
+    border-radius: 17px;
+ }
+
+ .f-unblock-button:hover{
+  background-color: #A9DB4C;
+  border-color: #3F4054;
+ }
+
+ .f-invitation-message{
+  color: #d3d3d3;
+ }
